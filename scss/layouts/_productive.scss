@@ -1,0 +1,45 @@
+.productive {
+  & {
+    margin-top: 160px;
+  }
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    @include for-tablet {
+      flex-direction: row;
+      max-width: 1280px;
+      margin: 0 auto;
+      align-items: center;
+      column-gap: 4rem;
+    }
+  }
+
+  &__heading {
+    color: $clr-white;
+    font-size: clamp(1.125rem, 3vw, 2.5rem);
+  }
+
+  &__subheading {
+    color: $clr-white;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__link {
+    color: $clr-accent-1;
+    text-underline-offset: 7px;
+    position: relative;
+    &:hover {
+      color: $clr-white;
+    }
+  }
+
+  &__link::after {
+    content: url(../../images/icon-arrow.svg);
+    &:hover {
+      color: $clr-white;
+    }
+  }
+}

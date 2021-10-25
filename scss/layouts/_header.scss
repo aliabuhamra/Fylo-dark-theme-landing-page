@@ -1,0 +1,44 @@
+// Header
+.header {
+  & {
+    background: url(../../images/bg-curvy-mobile.svg), $clr-primary-1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding-top: 30px;
+  }
+
+  &__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.2s; /* don't forget to set a duration! */
+
+    img {
+      width: clamp(5rem, 12vw, 11rem);
+      cursor: pointer;
+    }
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+  }
+
+  &__link {
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    font-weight: $fw-400;
+    color: $clr-white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      color: $clr-accent-1;
+    }
+  }
+}
