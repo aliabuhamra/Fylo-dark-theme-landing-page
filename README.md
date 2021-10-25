@@ -1,7 +1,7 @@
 # Frontend Mentor - Fylo dark theme landing page
 
-![github repo size](https://img.shields.io/github/repo-size/AliBearr/Insure-landing-page)
-![github contributors](https://img.shields.io/github/contributors/AliBearr/Insure-landing-page)
+![github repo size](https://img.shields.io/github/repo-size/AliBearr/Fylo-dark-theme-landing-page)
+![github contributors](https://img.shields.io/github/contributors/AliBearr/Fylo-dark-theme-landing-page)
 ![github twiter](https://img.shields.io/twitter/follow/AliBearrr?style=social)
 
 ### Built with
