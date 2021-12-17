@@ -1,7 +1,7 @@
 # Fylo dark theme landing page
 
-![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Base-Apparel-coming-soon-page)
-![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Base-Apparel-coming-soon-page)
+![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Fylo-dark-theme-landing-page)
+![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Fylo-dark-theme-landing-page)
 ![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
 
 ## Welcome! 👋
