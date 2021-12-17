@@ -16,3 +16,8 @@
     @content;
   }
 }
+
+// flex
+@mixin flex {
+  display: flex;
+}

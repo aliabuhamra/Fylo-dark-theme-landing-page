@@ -621,16 +621,40 @@ Files inside this folder can contain specific element styles and layout.
   position: relative;
 }
 
+.productive__link svg {
+  translate: 2px 4px;
+}
+
+.productive__link circle {
+  -webkit-transition: fill 1s ease;
+  transition: fill 1s ease;
+}
+
 .productive__link:hover {
   color: white;
 }
 
-.productive__link::after {
-  content: url(../../images/icon-arrow.svg);
+.productive__link:hover svg {
+  fill: white;
 }
 
-.productive__link::after:hover {
-  color: white;
+.productive__link:hover svg {
+  -webkit-animation: go-right 1.5s ease infinite;
+          animation: go-right 1.5s ease infinite;
+}
+
+@-webkit-keyframes go-right {
+  50% {
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem);
+  }
+}
+
+@keyframes go-right {
+  50% {
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem);
+  }
 }
 
 .testimonials {

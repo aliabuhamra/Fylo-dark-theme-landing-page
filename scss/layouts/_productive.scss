@@ -31,15 +31,31 @@
     color: $clr-accent-1;
     text-underline-offset: 7px;
     position: relative;
+
+    svg {
+      translate: 2px 4px;
+    }
+
+    circle {
+      transition: fill 1s ease;
+    }
+
     &:hover {
       color: $clr-white;
+    }
+
+    &:hover svg {
+      fill: $clr-white;
+    }
+
+    &:hover svg {
+      animation: go-right 1.5s ease infinite;
     }
   }
+}
 
-  &__link::after {
-    content: url(../../images/icon-arrow.svg);
-    &:hover {
-      color: $clr-white;
-    }
+@keyframes go-right {
+  50% {
+    transform: translateX(1rem);
   }
 }
